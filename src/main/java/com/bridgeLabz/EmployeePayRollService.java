@@ -15,8 +15,6 @@ public class EmployeePayRollService {
         EmployeePayRollService.readEmployeePayRollData(consoleInputReader);
         EmployeePayRollService.writeEmployeePayRollData();
     }
-
-
     private static void readEmployeePayRollData(Scanner consoleInputReader) {
         System.out.println("Enter Employee ID: ");
         int id = consoleInputReader.nextInt();
